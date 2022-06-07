@@ -13,6 +13,7 @@ namespace Level_24_The_Color
         private int _green;
         private int _blue;
 
+        //General class constructor for use with custom colors that will be hardcoded into the main upon instantiation.
         public Color(string colorName, int red, int green, int blue)
         {
 
@@ -26,6 +27,7 @@ namespace Level_24_The_Color
             _blue = blue;
         }
 
+        //constructor for colors that will use the color-specific color methods. This will prevent the asisgnment of values. 
         public Color(string name)
         {
             _colorName=name;
